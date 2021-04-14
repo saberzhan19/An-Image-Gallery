@@ -1,3 +1,19 @@
 *{
-    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, black 60%, blue);
+    overflow: hidden;
+}
+.hero .carousel{
+    width: 300px;
+    margin: -100px auto 0;
+    overflow: visible;
+}
+.carousel img{
+    -webkit-box-reflect: below 10px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.3));
 }

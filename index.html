@@ -6,8 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
 </head>
 <body>
-    
+    <div class="hero">
+        <div class="carousel">
+            <ul>
+                <li><img src="images/5d.jpg" alt=""></li>
+                <li><img src="images/7f.jpg" alt=""></li>
+                <li><img src="images/86.jpg" alt=""></li>
+                <li><img src="images/a6.jpg" alt=""></li>
+                <li><img src="images/dd.jpg" alt=""></li>
+                <li><img src="images/5w.jpg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.flipster.min.js"></script>
+
+    <script>
+        $('.carousel').flipster({
+            style:'carousel',
+            spacing: -0.3,
+        });
+    </script>
 </body>
 </html>
